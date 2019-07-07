@@ -23,20 +23,20 @@
                         <section class="mb-8">
                             <h5 class="uppercase font-bold mb-3">The Brand</h5>
                             <ul>
-                                <li class="text-sm leading-loose"><router-link to="/">Logo</router-link></li>
-                                <li class="text-sm leading-loose"><router-link to="/about">Logo Symbol</router-link></li>
-                                <li class="text-sm leading-loose"><router-link to="/">Colors</router-link></li>
-                                <li class="text-sm leading-loose"><router-link to="/">Typography</router-link></li>
+                                <li class="text-sm leading-loose"><router-link class="text-black" to="/" exact>Logo</router-link></li>
+                                <li class="text-sm leading-loose"><router-link class="text-black" to="/logo-symbol">Logo Symbol</router-link></li>
+                                <li class="text-sm leading-loose"><router-link class="text-black" to="/colors">Colors</router-link></li>
+                                <li class="text-sm leading-loose"><router-link class="text-black" to="/typography">Typography</router-link></li>
                             </ul>
                         </section>
 
                         <section>
                             <h5 class="uppercase font-bold mb-3">Doodles</h5>
                             <ul>
-                                <li class="text-sm leading-loose"><router-link to="/">Mascot</router-link></li>
-                                <li class="text-sm leading-loose"><router-link to="/about">Ilustrations</router-link></li>
-                                <li class="text-sm leading-loose"><router-link to="/">Loader and Animations</router-link></li>
-                                <li class="text-sm leading-loose"><router-link to="/">Wallpapers</router-link></li>
+                                <li class="text-sm leading-loose"><router-link class="text-black" to="/mascot">Mascot</router-link></li>
+                                <li class="text-sm leading-loose"><router-link class="text-black" to="/illustrations">Illustrations</router-link></li>
+                                <li class="text-sm leading-loose"><router-link class="text-black" to="/loaders-and-animations">Loader and Animations</router-link></li>
+                                <li class="text-sm leading-loose"><router-link class="text-black" to="/wallpapers">Wallpapers</router-link></li>
                             </ul>
                         </section>
                     </aside>
