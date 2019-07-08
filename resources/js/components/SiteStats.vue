@@ -1,0 +1,30 @@
+<template>
+    <div>
+        <h1 class="font-normal text-3xl text-gray-darkest leading-none">
+            Laracasts Stats
+        </h1>
+
+        <ul>
+            <li><strong>Total Series:</strong> {{ series }}</li>
+            <li><strong>Total Lesson:</strong> {{ lessons }}</li>
+        </ul>
+    </div>
+</template>
+
+<script>
+    export default {
+        data() {
+            return {
+                series: 0,
+                lessons: 0
+            }
+        },
+
+        created() {
+            axios.get('http://laravel-vue-spa.test/api/stats').then(({ data }) => {
+                this.series = data.series;
+                this.lessons = data.lessons;
+            });
+        }
+    };
+</script>
